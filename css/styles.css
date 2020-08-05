@@ -152,7 +152,7 @@
     .header-icon{
       margin-right: 10px; 
       text-align: center;
-      background-color: #757575;
+      color: #757575 ;
       }
 
 
@@ -546,7 +546,6 @@
     height: 25px;
     margin-left: 10px;
    }
-}
     /* оформлени портфолио фильтр */
     
   .portfolio{
