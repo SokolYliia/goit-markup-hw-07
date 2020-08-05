@@ -149,21 +149,27 @@
     {margin-right: 50px;
     }
     
+    .header-icon{
+      margin-right: 10px; 
+      background-image: #2196F3; 
+      text-align: center;
+      }
+
+
    
     /* оформлени героя */
-    .main{
-    height: 600px;
-    background-color: #2F303A;
-    }
-     
-    .main.container{
-      background: #2F303A;
-     
-    }
-
+   
 
     .hero{
-      text-align: center; 
+      text-align: center;
+      height: 600px;
+      max-width: 1600px;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: linear-gradient(
+        to bottom,
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)),url(../imgdz4/header\ img.jpg); 
       
     }
     
@@ -176,7 +182,6 @@
     text-transform: uppercase;
     margin-bottom: 30px;
     margin-top: 0;
-    padding-top: 200px;
     
     
     }
@@ -198,6 +203,7 @@
         line-height: 1.167;
         text-align: center;
         letter-spacing: 0.03em;
+        margin-bottom: 50px;
       }
 
      /* оформлени наши преимущества */ 
@@ -297,12 +303,12 @@
        background-color: #FFFFFF;
        width: 270px;
        box-sizing: border-box;
+       padding-right: 24px;
      }
       
      .names-team
       {
       font-weight: 500;
-      margin-top: 30px;
       margin-bottom: 10px;
     }
 
@@ -311,7 +317,6 @@
     }
      
     .our-team-box-profession {
-      margin-top: 10px;
       margin-bottom: 16px;
     }
   .social-list-item {
@@ -582,6 +587,10 @@ padding-bottom: 24px;
     height: 168px;
     left: 254px;
     top: 316px;
+
+
+    margin-top: 16px;
+    margin-bottom: 24px;
     }
     */
     
@@ -594,8 +603,7 @@ padding-bottom: 24px;
     
     .social-list-icon{
     display: flex;
-    margin-top: 16px;
-    margin-bottom: 24px;
+    
     justify-content: space-around;
     }
     
