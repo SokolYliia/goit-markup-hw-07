@@ -151,8 +151,8 @@
     
     .header-icon{
       margin-right: 10px; 
-      background-image: #2196F3; 
       text-align: center;
+      background-color: #757575;
       }
 
 
@@ -208,7 +208,15 @@
 
      /* оформлени наши преимущества */ 
 
-   
+   .advantage-img {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background: #757575;
+    align-items: center;
+    justify-content: center;
+   }
+
     .about-main{
       width: 1200px;
 
@@ -233,6 +241,8 @@
       line-height: 1.143;
       text-transform: uppercase;
       color: #212121;
+      padding-top: 30px;
+      padding-bottom: 10px;
     }
 
            
@@ -296,14 +306,28 @@
     .social-list {
       display: flex;
       text-align: center;
-  
     }
  
+     .social-list-item:not(:last-child) {
+      margin-right: 10px;
+  }
+     
+     .social-list-item-link{
+      display: flex;
+      width: 44px;
+      height: 44px;
+      justify-content: center;
+      align-items: center;
+      }
+  
+
      .our-team-box {
        background-color: #FFFFFF;
        width: 270px;
        box-sizing: border-box;
-       padding-right: 24px;
+       padding-bottom: 24px;
+       box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+       border-radius: 0px 0px 4px 4px;
      }
       
      .names-team
@@ -319,10 +343,12 @@
     .our-team-box-profession {
       margin-bottom: 16px;
     }
-  .social-list-item {
-padding-bottom: 24px;
+       
+     .social-item:not(:last-child) {
+       margin-right: 10px;
+     }
 
-  }
+
     .our-team {
     background-color: #F5F4FA;
     height: 702px;
@@ -455,8 +481,7 @@ padding-bottom: 24px;
 
    .social-icons{
     margin-left: 60px;
-    height:53px;
-
+    height: 86px;
    }
 
     .social-icons-list {
@@ -480,6 +505,11 @@ padding-bottom: 24px;
     text-transform: uppercase;
     }
     
+    .footer-icon{
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+    }
 
     .mailing-list-input {
       width: 358px;
@@ -509,7 +539,13 @@ padding-bottom: 24px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: #2196F3;}
+
+    .mail-icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+   }
 }
     /* оформлени портфолио фильтр */
     
@@ -562,10 +598,23 @@ padding-bottom: 24px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: #212121;}
     
+     .work-list{
+      border: 1px solid #EEEEEE;
+      padding-top: 20px;
+      padding-right: 24px;
+      padding-bottom: 20px;
+      padding-left: 24px;
+    }
+
+
+    .galery-list:hover,
+    .galery-list:focus {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
     
+
     .galery-subtitle 
     {
     font-size: 16px;
@@ -603,15 +652,16 @@ padding-bottom: 24px;
     
     .social-list-icon{
     display: flex;
-    
-    justify-content: space-around;
+    justify-content: center;
+
     }
     
-
     .team-icon {
     fill: #AFB1B8;
     width: 20px;
-    height: 20px;}
+    height: 20px;
+    
+    }
 
 
     .galery {
