@@ -322,7 +322,11 @@
       border-radius: 50%;
       }
   
-    
+      .social-list-item-link:focus,
+      .social-list-item-link:hover
+      {background: #2196F3}
+
+       
 
      .our-team-box {
        background-color: #FFFFFF;
