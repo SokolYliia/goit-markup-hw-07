@@ -118,7 +118,7 @@
     .header-mail-link:hover,
     .header-mail-link:focus,
     .header-tel-link:hover,
-    .header-tel-link:focus
+    .header-tel-link:focus,
     {color: #2196F3}
     
     .navigation-list-link
@@ -149,7 +149,7 @@
     {margin-right: 50px;
     }
     
-    .header-icon{
+    .header-icon {
       margin-right: 10px; 
       text-align: center;
       color: #757575 ;
