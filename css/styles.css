@@ -309,10 +309,7 @@
       display: flex;
       text-align: center;
     }
- 
-     .social-list-item:not(:last-child) {
-      margin-right: 10px;
-  }
+
      
      .social-list-item-link{
       display: flex;
@@ -320,8 +317,11 @@
       height: 44px;
       justify-content: center;
       align-items: center;
+      background: rgba(255, 255, 255, 0.1);
+      margin-right: 10px;
       }
   
+    
 
      .our-team-box {
        background-color: #FFFFFF;
