@@ -207,12 +207,14 @@
       }
 
      /* оформлени наши преимущества */ 
+    
+     .advantage-icon {
+      width: 270px;
+      height: 120px;
+     }
 
    .advantage-img {
     display: flex;
-    width: 270px;
-    height: 120px;
-    background: #757575;
     align-items: center;
     justify-content: center;
    }
