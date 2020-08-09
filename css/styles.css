@@ -120,15 +120,14 @@
     .header-tel-link:hover,
     .header-tel-link:focus
     {color: #2196F3}
-    
-    .header-mail-link:hover,
-    .header-mail-link:focus,
-    .header-tel-link:hover,
-    .header-tel-link:focus
-    {color: #2196F3}
 
+
+    .header-mail-link:hover svg,
+    .header-mail-link:focus svg,
+    .header-tel-link:hover svg ,
+    .header-tel-link:focus svg
+    { fill: #2196F3}
   
-    
 
     .navigation-list-link
     {
@@ -148,12 +147,15 @@
     .header-mail-link, 
     .header-tel-link
     {
+    display: flex;
+    align-items: center;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.42;
     letter-spacing: 0.02em;
     color: #757575 }
+
     .header-address-list:not(:last-child)
     {margin-right: 50px;
     }
@@ -267,6 +269,12 @@
     letter-spacing: 0.03em;
     }
 
+    .advantage-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    }
+
     
     /* оформлени чем занимаемся */
    
@@ -278,6 +286,7 @@
       margin-bottom: 50px;
     }
 
+    
 
     .services-list {
       display: flex;
@@ -677,8 +686,12 @@
     fill: #AFB1B8;
     width: 20px;
     height: 20px;
-    
     }
+
+    .social-list-item-link:hover .team-icon,
+    .social-list-item-link:focus .team-icon
+    { fill:#ffffff}
+    
 
 
     .galery {
@@ -689,3 +702,6 @@
       width: 1200px;
       }
       
+      .our-clients-link:hover,
+      .our-clients-link:focus
+      {color: #2196F3;}
