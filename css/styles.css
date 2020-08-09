@@ -344,7 +344,11 @@
   
       .social-list-item-link:focus,
       .social-list-item-link:hover
-      {background: #2196F3}
+      {
+      background: #2196F3;
+      
+      }
+      
 
        
 
@@ -408,6 +412,18 @@
     }
 
 
+    .our-clients-link {
+      align-items: center;
+      justify-content: center;
+    }
+   
+
+    .our-clients-link:hover .clients-icon{
+      fill: #2196F3;
+       }
+
+       
+       
     .our-clients li {
       display: flex;
       width: 170px;
@@ -422,15 +438,20 @@
         margin-right: auto;
       }
      
+     
+
        .clients .container{
          padding: 0;
        }
 
     .our-clients-logo:not(:last-child)
     {margin-right: 30px;}
-    
 
-    
+
+    .clients-icon{
+      fill: #AFB1B8;}
+
+  
     /* оформлени контактная инфо */
 
     .footer {
@@ -688,11 +709,6 @@
     height: 20px;
     }
 
-    .social-list-item-link:hover .team-icon,
-    .social-list-item-link:focus .team-icon
-    { fill:#ffffff}
-    
-
 
     .galery {
       display: flex;
@@ -702,6 +718,3 @@
       width: 1200px;
       }
       
-      .our-clients-link:hover,
-      .our-clients-link:focus
-      {color: #2196F3;}
