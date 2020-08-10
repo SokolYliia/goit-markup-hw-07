@@ -413,22 +413,22 @@
     padding-bottom: 94px;
   }
     .our-clients {
-      display: flex;
+    display: flex;
     }
 
 
     .our-clients-link {
-      align-items: center;
-      justify-content: center;
+    align-items: center;
+    justify-content: center;
     }
    
 
     .our-clients-link:hover .clients-icon{
-      fill: #2196F3;
+    fill: #2196F3;
        }
 
       .our-clients-logo:hover  {
-        border: 1px solid  #2196F3;
+      border: 1px solid  #2196F3;
        }
        
       
