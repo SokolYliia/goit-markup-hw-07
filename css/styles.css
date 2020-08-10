@@ -342,14 +342,19 @@
       border-radius: 50%;
       }
   
-      .social-list-item-link:focus,
+      .social-list-item-link:focus ,
       .social-list-item-link:hover
       {
       background: #2196F3;
-      
+
       }
       
-
+      .social-list-icon .team-icon:focus ,
+      .social-list-icon .team-icon:hover
+      {
+        fill: #FFFFFF;
+      }
+      
        
 
      .our-team-box {
@@ -422,7 +427,11 @@
       fill: #2196F3;
        }
 
+      .our-clients-logo:hover  {
+        border: 1px solid  #2196F3;
+       }
        
+      
        
     .our-clients li {
       display: flex;
