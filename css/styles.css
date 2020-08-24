@@ -143,7 +143,9 @@
     text-decoration: none;
     color: #757575;
     padding-top: 32px;
-    padding-bottom: 32px}
+    padding-bottom: 32px;
+    position: relative;
+  }
     
     
     
@@ -760,7 +762,7 @@
       height: 4px;
       background-color: #2196F3;
       border-radius: 2px;
-      display: block;
+      bottom: 0;
       
   }  
 
