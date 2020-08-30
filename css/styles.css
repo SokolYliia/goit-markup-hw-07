@@ -963,8 +963,11 @@
       background-color: #2196F3;
       background-size: contain;
       background-origin: border-box;
+      background-image: url(../imgdz4/galochka.svg);
     
     }
+
+    
     .checkbox{
       position: absolute;
       width: 1px;
