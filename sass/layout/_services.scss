@@ -1,0 +1,52 @@
+/* оформлени чем занимаемся */
+   
+
+.our-team-box-img {
+    margin-bottom: 30px;
+  }
+  .services .main-title {
+    margin-bottom: 50px;
+  }
+
+  
+
+  .services-list {
+    display: flex;
+             }
+
+  .services-box:not(:last-child)
+  {margin-right: 30px;
+    
+  }
+  
+  .services .container{
+  flex-wrap: wrap;
+  min-width: 370px;
+  justify-content:space-between;
+  display: inline-block;
+  }
+
+  .services-title
+  {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  top: 1392px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; 
+  color: #FFFFFF; 
+  padding: 27px;
+  background: rgba(47, 48, 58, 0.8);
+  }
+
+
+
+   .services-list .container {
+    width: 370px;
+    height: 1,26px;
+   }
+  

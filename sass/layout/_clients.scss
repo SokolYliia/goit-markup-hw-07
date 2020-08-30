@@ -1,0 +1,56 @@
+/* оформлени постоянные клиенты */
+    
+
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+    .our-clients {
+    display: flex;
+    }
+
+
+    .our-clients-link {
+    align-items: center;
+    justify-content: center;
+    }
+    .our-clients-logo:hover .clients-icon{
+      fill: #2196F3;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+         }
+  
+        .our-clients-logo:hover  {
+        border: 1px solid  #2196F3;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+         }
+
+    
+       
+      
+       
+    .our-clients li {
+      display: flex;
+      width: 170px;
+      height: 90px;
+      border: 1px solid #AFB1B8;
+      box-sizing: border-box;
+      border-radius: 4px;}
+
+      .our-clients-logo a {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+      }
+     
+     
+
+       .clients .container{
+         padding: 0;
+       }
+
+    .our-clients-logo:not(:last-child)
+    {margin-right: 30px;}
+
+
+    .clients-icon{
+      fill: #AFB1B8;}

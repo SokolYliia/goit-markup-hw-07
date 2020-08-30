@@ -1,0 +1,53 @@
+ /* оформлени наши преимущества */ 
+     
+ .advantage-img {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    align-items: center;
+    justify-content: center;
+   }
+
+    .about-main{
+      width: 1200px;
+
+    }
+     .about-us-title {
+      display: flex;
+     }
+     
+    .advantage:not(:last-child) {
+      margin-right: 30px;}
+     
+      .advantage {
+      width: 270px;
+      height: 120px;
+    
+     }
+
+    .about-us-title-list {
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.143;
+      text-transform: uppercase;
+      color: #212121;
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+
+           
+    .subtitle
+    {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;   
+    letter-spacing: 0.03em;
+    }
+
+    .advantage-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    }
