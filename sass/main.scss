@@ -1,8 +1,7 @@
+@import "./base/fonts";  
 @import "./base/base";
-@import "./base/fonts";
 @import "./components/container";
 @import "./components/section";
-@import "./components/modal";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/about";
@@ -11,4 +10,4 @@
 @import "./layout/team";
 @import "./layout/contacts";
 @import "./layout/filtrportfolio";
-@import "./layout/galery";
+@import "../sass/layout/galery";
